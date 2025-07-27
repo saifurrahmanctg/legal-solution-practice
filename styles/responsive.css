@@ -1,0 +1,25 @@
+/* Responsiveness for small device - width less than 576px */
+@media screen and (max-width: 576px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-links ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  .service-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .faq-wrapper {
+    flex-direction: column-reverse;
+  }
+  .contact-wrapper {
+    flex-direction: column;
+  }
+  .footer-content {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+}
